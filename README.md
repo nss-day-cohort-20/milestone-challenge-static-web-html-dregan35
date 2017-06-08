@@ -7,21 +7,7 @@ Run the following command in your terminal:
 
 ```bash
 mkdir -p ~/workspace/challenges/static-web/html && cd $_
-```
 
-This will create a project folder and cd you into it.
-When you are ready to start the challenge, request the Github Classroom link from your instructor  
-+ Once your repository is created on GitHub, copy the list of commands under **"..or create a new repository on the command line"** by clicking on the clipboard icon  
-+ Paste the commands into your terminal. This will create a README.md file, add it, commit it, connect your local repo to GitHub, and set you up to push changes. (If the last command, `git push origin master` isn't automatically executed, hit enter/return to run it).
-
-All of your work should be on a branch, NOT on master. To do this, type:
-
-```bash
-git checkout -b challenge
-touch index.html
-mkdir css && touch css/styles.css
-mkdir images
-```
 You are now ready to work in the `challenge` branch.
 
 If you would like to have your work reviewed, push up the branch (`git push origin challenge`), submit a pull request on Github, and Slack the instruction team with a request for review (be sure to include a link to your repo). A member of the instruction team will take a look and give feedback. Your work does not need to be complete to receive feedback.
@@ -39,7 +25,9 @@ Create a page for your own personal branding that can be treated as the beginnin
 1. Section element containing your bio
 1. Section element with links to resources or sites you like
 1. Section element with two sections for future projects (placeholders)
-1. Section area containing your blog posts. Each of these should use ```article``` element.
+1. Section area containing your blog posts. Each of these should use
+```article```
+element.
 1. Footer element with email and professional social media links; Github, twitter, LinkedIn, etc.
 1. Semantic mark-up for all major elements.
 1. Validate your html page with W3 validator: https://validator.w3.org/
@@ -54,5 +42,15 @@ Create a page for your own personal branding that can be treated as the beginnin
 
 * Page Titles and Headings: http://meetcontent.com/blog/introducing-content-page-titles-headings/
 * Explore and create color combinations: https://color.adobe.com
-* Material Color: https://material.io/guidelines/style/color.html#color-color-system 
+* Material Color: https://material.io/guidelines/style/color.html#color-color-system
     - Material color tool - https://material.io/color/#!/?view.left=0&view.right=0
+```
+validator.w3.org
+The W3C Markup Validation Service
+W3C's easy-to-use markup validation service, based on SGML and XML parsers.
+ meetcontent.com
+Introducing Your Content: Page Titles and Headings | Meet Content
+There’s a lot riding on page titles and headers to inform and guide web users. These guidelines ensure your words are meaningful, relevant, and clear.
+Adobe Kuler
+Color wheel | Color schemes
+Create color schemes with the color wheel or browse thousands of color combinations from the Kuler community.
